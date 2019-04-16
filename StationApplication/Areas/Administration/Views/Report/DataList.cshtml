@@ -1,0 +1,68 @@
+﻿@model ReportView
+@{
+    ViewData["Title"] = "DataList";
+    Layout = "~/Areas/Administration/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <center><h2>@TempData["DataListTime"] Arası Filtrelenmiştir</h2></center>
+    <div class="col-md-12 mb-12 mx-auto">
+        <center>
+            <form method="post" asp-action="DataListPost" asp-controller="Report">
+                <div class="input-append date form_datetime mx-auto">
+                    <input asp-for="FirstTime" type="datetime-local" class="btn btn-dark end" value="2019-01-01T00:00" />
+                    <input asp-for="LastTime" type="datetime-local" class="btn btn-dark end" value="2019-12-31T23:59" />
+                    <select asp-for="@Model.DataList_Take">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="150">150</option>
+                        <option value="200">200</option>
+                        <option value="250">250</option>
+                    </select>
+                    <input type="submit" class="btn btn-dark" value="Filtrele" />
+                    <input type="submit" class="btn btn-dark" asp-action="ExportExcel" asp-controller="Report" value="ExportExcel" />
+                </div>
+            </form>
+        </center>
+        <br />
+    </div>
+    <div class="col-md-12 col-xs-12">
+        <!-- small box -->
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <table class="table text-center">
+                    <tr>
+
+                        <td>Biniş Yapılan Durak</td>
+                        <td>İade Alınan Durak</td>
+                        <td>Biniş Yapılan Zaman</td>
+                        <td>İade Alınan Zaman</td>
+                        <td>Kart Id</td>
+                        <td>Kart Tipi</td>
+                        <td>Ödenen</td>
+                        <td>İade Edilen</td>
+                    </tr>
+                    @foreach (var item in @Model.StationSmartTicket)
+                    {
+                        <tr>
+                            <td>@item.StartStation.Name</td>
+                            <td>
+                                @if (item.FinishStationId != null)
+                                {
+                                    @item.FinishStation.Name
+                                }
+                            </td>
+                            <td>@item.StartTime</td>
+                            <td>@item.FinishTime</td>
+                            <td>@item.SmartTicketId</td>
+                            <td>@item.SmartTicket.SmartTicketType.Name</td>
+                            <td>@item.Pay</td>
+                            <td>@item.Rebate</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

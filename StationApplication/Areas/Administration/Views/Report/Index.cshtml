@@ -1,0 +1,129 @@
+﻿@model ReportView
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Administration/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <center><h2>@TempData["Time"] Arası Filtrelenmiştir</h2></center>
+    <div class="col-md-12 mb-12 mx-auto">
+        <center>
+            <form method="post" asp-action="Filter" asp-controller="Report">
+                <div class="input-append date form_datetime mx-auto">
+                    <input asp-for="FirstTime" type="datetime-local" class="btn btn-dark end" value="2019-01-01T00:00" />
+                    <input asp-for="LastTime" type="datetime-local" class="btn btn-dark end" value="2019-12-31T23:59" />
+                    <input type="submit" class="btn btn-dark" value="Filtrele" />
+                </div>
+            </form>
+        </center>
+        <br />
+    </div>
+    <div class="col-md-6 col-xs-6">
+        <!-- small box -->
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <table class="table text-center">
+                    <tr>
+                        <td>Toplam Yolcu</td>
+                        <td>İade Almayanlar</td>
+                        <td>İade Almayanların Yüzdesi</td>
+                    </tr>
+                    <tr>
+                        <td><h2><b>@Model.RebateForRate_Count</b></h2></td>
+                        <td><h2><b>@Model.RebateForRate_RebateCount </b></h2></td>
+                        <td><h2><b>%@Model.RebateForRate_Rate </b></h2></td>
+                    </tr>
+                </table>
+                <table class="table text-center">
+                    <tr>
+                        <td>Normal Ücretli</td>
+                        <td>Öğrenci</td>
+                    </tr>
+                    <tr>
+                        <td><h2><b>@Model.RebateForRate_StandartCount</b></h2></td>
+                        <td><h2><b>@Model.RebateForRate_StudentCount</b></h2></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Öğrenci İade alamaz % ona göre hesaplanır</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="icon">
+                <i class="fa fa-bus"></i>
+            </div>  
+        </div>
+        <div class="small-box bg-green">
+            <div class="inner">
+                <table class="table text-center">
+                    <tr>
+                        <td scope="col"><b>En Yoğun Saatler</b></td>
+                        <td scope="col"><b>Yolculuk Sayısı</b></td>
+                    </tr>
+                    @foreach (var item in Model.TrafficTimeViews)
+                    {
+                        <tr>
+                            <td>@item.Hour.00 - @item.HourRange.00 </td>
+                            <td>@item.Count </td>
+                        </tr>
+                    }
+                </table>
+                <p></p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-pie-chart"></i>
+            </div>
+            En fazla 5 kayıt gösterilir.
+        </div>
+    </div>
+    <!-- ./col -->
+    <!-- ./col -->
+    <div class="col-md-6 col-xs-6">
+        <!-- small box -->
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <table class="table">
+                    <tr>
+                        <td scope="col">En Yoğun Duraklar</td>
+                        <td scope="col">Yolculuk Sayısı</td>
+                    </tr>
+                    @foreach (var item in Model.MaxStationStart)
+                    {
+                        <tr>
+                            <td>@item.StartStation</td>
+                            <td>@item.StartStationSum</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="icon">
+                <i class="fa fa-bus"></i>
+            </div>
+            Miktar 2 ve üstü listelenir ve en fazla 5 kayıt gösterilir.
+        </div>
+        <div class="small-box bg-red">
+            <div class="inner">
+                <table class="table">
+                    <tr>
+                        <td scope="col">En Çok İade Alınan Duraklar</td>
+                        <td scope="col">İade Miktarı</td>
+                    </tr>
+                    @foreach (var item in Model.MaxStationRebate)
+                    {
+                        <tr>
+                            <td>@item.RebateStation</td>
+                            <td>@item.RebateStationSum</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="icon">
+                <i class="fa fa-bus"></i>
+            </div>
+            Miktar 2 ve üstü listelenir ve en fazla 5 kayıt gösterilir.
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-md-6 col-xs-6">
+        <!-- small box -->
+        
+    </div>
+</div>

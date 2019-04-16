@@ -1,0 +1,23 @@
+﻿@model SmartTicketTypeView
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="SmartTicketAdd" asp-controller="SmartTicket">
+    <div class="text-center py-4">
+        <select class="btn btn-indigo" asp-for="@Model.SmartTicketType.Id">
+            <option value="">Kart Tipi Seçiniz</option>
+            @foreach (var item in Model.SmartTicketTypes)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+    </div>
+    <div class="text-center py-4">
+        <button type="submit" class="btn btn-indigo">Kart Üyeliği Al <i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button asp-action="Index" asp-controller="Home" type="submit" class="btn btn-indigo">Ana Menüye Dön<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+</form>

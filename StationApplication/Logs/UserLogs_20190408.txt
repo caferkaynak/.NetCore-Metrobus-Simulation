@@ -1,0 +1,93 @@
+ERROR 08-00-2019 06:00:55  [7] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 06:00:54 - 8.04.2019 06:00:54 
+ERROR 08-00-2019 06:00:57  [7] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :9.03.2019 06:00:56 - 8.04.2019 06:00:56 Listelenen veri sayısı : 10 
+ERROR 08-01-2019 06:01:00  [7] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 06:01:00 - 8.04.2019 06:01:00 
+ERROR 08-01-2019 06:01:01  [16] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :9.03.2019 06:01:01 - 8.04.2019 06:01:01 Listelenen veri sayısı : 10 
+ERROR 08-01-2019 06:01:06  [16] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 06:01:06 - 8.04.2019 06:01:06 
+ERROR 08-03-2019 06:03:01  [16] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 06:03:01 - 8.04.2019 06:03:01 
+ERROR 08-03-2019 06:03:17  [16] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 06:03:17 - 8.04.2019 06:03:17 
+ERROR 08-37-2019 14:37:30  [13] - 404 Requested page not found! 
+ERROR 08-37-2019 14:37:56  [20] - New Smart Ticket, Id : 6 
+ERROR 08-38-2019 14:38:02  [16] - Sing In, Smart Ticket Id : 6 
+ERROR 08-38-2019 14:38:08  [20] - Smart Ticket Id : 6 Yükleme Tutarı : 200 
+ERROR 08-38-2019 14:38:09  [22] - SmartTicket Id : 6 Biniş Yapılan Durak Id :30 
+ERROR 08-38-2019 14:38:09  [16] - Smart Ticket Id: 6 : Kullanılan Tutar : -4,305 
+ERROR 08-38-2019 14:38:11  [16] - SmartTicket Id :27İade Alınan Durak Id :23 
+ERROR 08-38-2019 14:38:11  [22] - Smart Ticket Id: 6 : İade Yapıldı Tutar : 1,044 
+ERROR 08-38-2019 14:38:14  [25] - Smart Ticket Id: 6 : Lütfen Durak Seçiniz 
+ERROR 08-38-2019 14:38:14  [22] - Smart Ticket Id: 6 : Lütfen Durak Seçiniz 
+ERROR 08-38-2019 14:38:15  [16] - Smart Ticket Id: 6 : Lütfen Durak Seçiniz 
+ERROR 08-38-2019 14:38:38  [31] - Admin : Yönetici girişi yaptı. 
+ERROR 08-38-2019 14:38:39  [32] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 14:38:38 - 8.04.2019 14:38:38 
+ERROR 08-39-2019 14:39:20  [32] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :9.03.2019 14:39:20 - 8.04.2019 14:39:20 Listelenen veri sayısı : 10 
+ERROR 08-39-2019 14:39:34  [30] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :1.01.2019 00:00:00 - 31.12.2019 23:59:00 Listelenen veri sayısı : 10 
+ERROR 08-39-2019 14:39:36  [34] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :1.01.2019 00:00:00 - 31.12.2019 23:59:00 Listelenen veri sayısı : 50 
+ERROR 08-39-2019 14:39:43  [30] - Kullanıcı : AdminVeri Excele Aktarıldı : Filtre Tarihi :1.01.2019 00:00:00 - 31.12.2019 23:59:00 Listelenen veri sayısı : 50 
+ERROR 08-40-2019 14:40:29  [35] - Admin : Yönetici panelinden çıkış yaptı. 
+ERROR 08-40-2019 14:40:34  [31] - 404 Requested page not found! 
+ERROR 08-40-2019 14:40:43  [33] - New Smart Ticket, Id : 7 
+ERROR 08-40-2019 14:40:50  [31] - Sing In, Smart Ticket Id : 7 
+ERROR 08-40-2019 14:40:56  [29] - Smart Ticket Id : 7 Yükleme Tutarı : 150 
+ERROR 08-40-2019 14:40:58  [31] - SmartTicket Id : 7 Biniş Yapılan Durak Id :1 
+ERROR 08-40-2019 14:40:58  [33] - Smart Ticket Id: 7 : Kullanılan Tutar : -4,35 
+ERROR 08-40-2019 14:40:59  [33] - SmartTicket Id : 7 Biniş Yapılan Durak Id :28 
+ERROR 08-40-2019 14:40:59  [31] - Smart Ticket Id: 7 : Kullanılan Tutar : -4,239 
+ERROR 08-41-2019 14:41:09  [33] - Admin : Yönetici girişi yaptı. 
+ERROR 08-41-2019 14:41:09  [29] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 14:41:09 - 8.04.2019 14:41:09 
+ERROR 08-41-2019 14:41:18  [29] - Admin : Yönetici panelinden çıkış yaptı. 
+ERROR 08-09-2019 23:09:28  [9] - 404 Requested page not found! 
+ERROR 08-09-2019 23:09:38  [20] - Admin : Yönetici girişi yaptı. 
+ERROR 08-09-2019 23:09:39  [20] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 23:09:38 - 8.04.2019 23:09:38 
+ERROR 08-09-2019 23:09:39 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [20] - An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Areas_Administration_Views_Report_Index.ExecuteAsync() in C:\Users\Cafer Kaynak\Documents\Visual Studio 2017\Projects\StationApplication\StationApplication\Areas\Administration\Views\Report\Index.cshtml:line 61
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+ERROR 08-10-2019 23:10:51  [6] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 23:10:51 - 8.04.2019 23:10:51 
+ERROR 08-10-2019 23:10:56  [9] - Admin : Yönetici panelinden çıkış yaptı. 
+ERROR 08-12-2019 23:12:16  [18] - Admin : Yönetici girişi yaptı. 
+ERROR 08-12-2019 23:12:16  [18] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 23:12:16 - 8.04.2019 23:12:16 
+ERROR 08-12-2019 23:12:16 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [18] - An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Areas_Administration_Views_Report_Index.ExecuteAsync() in C:\Users\Cafer Kaynak\Documents\Visual Studio 2017\Projects\StationApplication\StationApplication\Areas\Administration\Views\Report\Index.cshtml:line 61
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+

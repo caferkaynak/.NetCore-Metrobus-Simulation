@@ -1,0 +1,121 @@
+ERROR 08-58-2019 05:58:15  [10] - New Smart Ticket, Id : 5 
+ERROR 08-58-2019 05:58:25  [7] - Sing In, Smart Ticket Id : 5 
+ERROR 08-58-2019 05:58:27  [10] - Smart Ticket Id: 5 : Yetersiz Bakiye 
+ERROR 08-58-2019 05:58:30  [15] - Smart Ticket Id: 5 : İade alabilmeniz için yolculuk yapmanız lazım 
+ERROR 08-58-2019 05:58:34  [15] - Smart Ticket Id : 5 Yükleme Tutarı : 150 
+ERROR 08-58-2019 05:58:36  [10] - SmartTicket Id : 5 Biniş Yapılan Durak Id :30 
+ERROR 08-58-2019 05:58:36  [19] - Smart Ticket Id: 5 : Kullanılan Tutar : -4,305 
+WARN  08-58-2019 05:58:38 Microsoft.EntityFrameworkCore.Query [19] - The LINQ expression 'Last()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:38 Microsoft.EntityFrameworkCore.Query [19] - The LINQ expression 'Last()' could not be translated and will be evaluated locally. 
+ERROR 08-58-2019 05:58:38  [19] - SmartTicket Id :26İade Alınan Durak Id :22 
+ERROR 08-58-2019 05:58:38  [17] - Smart Ticket Id: 5 : İade Yapıldı Tutar : 0,9825 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select (Nullable<DateTime>)[<generated>_1].StartTime)....' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from IGrouping<int, StationSmartTicket> w in  (from StationSmartTicket w in DbSet<StationSmartTicke...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select (Nullable<DateTime>)[<generated>_1].StartTime)....' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].StartTime.Hour, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].StartTime.Hour, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'orderby [o].sum desc' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select [<generated>_1].StartStation).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from IGrouping<int, StationSmartTicket> w in  (from StationSmartTicket w in DbSet<StationSmartTicke...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select [<generated>_1].StartStation).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].StartStationId, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.StartStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "StartStationId") equals Property([s.StartStation], "Id")' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.StartStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "StartStationId") equals Property([s.StartStation], "Id")' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].StartStationId, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.StartStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "StartStationId") equals Property([s.StartStation], "Id")' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.StartStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "StartStationId") equals Property([s.StartStation], "Id")' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'orderby [o].sum desc' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select [<generated>_1].FinishStation).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from IGrouping<Nullable<int>, StationSmartTicket> w in  (from StationSmartTicket w in DbSet<Station...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - Query: '(from StationSmartTicket <generated>_1 in [w] select [<generated>_1].FinishStation).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].FinishStationId, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.FinishStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "FinishStationId") equals Convert(Property([s.FinishStation], "Id"), Nullable`1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'from Station s.FinishStation in {[s.FinishStation_group] => DefaultIfEmpty()}' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.FinishStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "FinishStationId") equals Convert(Property([s.FinishStation], "Id"), Nullable`1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'from Station s.FinishStation in {[s.FinishStation_group] => DefaultIfEmpty()}' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'GroupBy([w].FinishStationId, [w])' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'where ({[w] => Count()} > 1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.FinishStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "FinishStationId") equals Convert(Property([s.FinishStation], "Id"), Nullable`1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'from Station s.FinishStation in {[s.FinishStation_group] => DefaultIfEmpty()}' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'join Station s.FinishStation in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[StationApplication.Entity.Entities.Station]) on Property([<generated>_1], "FinishStationId") equals Convert(Property([s.FinishStation], "Id"), Nullable`1)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'DefaultIfEmpty()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'from Station s.FinishStation in {[s.FinishStation_group] => DefaultIfEmpty()}' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Count()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Distinct()' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally. 
+WARN  08-58-2019 05:58:41 Microsoft.EntityFrameworkCore.Query [17] - The LINQ expression 'orderby Convert([o]?.sum, Int32) desc' could not be translated and will be evaluated locally. 
+ERROR 08-58-2019 05:58:41  [17] - Kullanıcı : Admin Rapor Filtrelendi : Filtre Tarihi :9.03.2019 05:58:41 - 8.04.2019 05:58:41 
+ERROR 08-58-2019 05:58:43  [17] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :9.03.2019 05:58:43 - 8.04.2019 05:58:43 Listelenen veri sayısı : 10 
+ERROR 08-58-2019 05:58:47  [17] - Kullanıcı : AdminVeri Filtrelendi : Filtre Tarihi :1.01.2019 00:00:00 - 31.12.2019 23:59:00 Listelenen veri sayısı : 10 
+ERROR 08-58-2019 05:58:49  [15] - Kullanıcı : AdminVeri Excele Aktarıldı : Filtre Tarihi :1.01.2019 00:00:00 - 31.12.2019 23:59:00 Listelenen veri sayısı : 10 

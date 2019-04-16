@@ -1,0 +1,36 @@
+﻿@model StationSmartTicketView
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form>
+    <div class="text-center py-4">
+        <input type="hidden" asp-for="@Model.SmartTicket.Id" />
+        <input type="hidden" asp-for="@Model.SmartTicket.SmartTicketTypeId" />
+        <input type="hidden" asp-for="@Model.SmartTicket.UniqueCode" />
+        <label class="text text-black-50 float-left">İşlem Yapılan Id<br /><h2>@Model.SmartTicket.Id</h2></label>
+        <label class="text text-black-50">Bakiye<br /><h2> @Model.SmartTicket.Arrears</h2></label>
+        <label class="text text-black-50 float-right">Kart Türü<br /><h2> @Model.SmartTicket.SmartTicketType.Name</h2></label>
+    </div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="text-center py-4">
+        <select class="custom-select" asp-for="@Model.Station.Id">
+            <option value="">İşlem Yapmak istediğiniz Durak Adını Seçiniz</option>
+            @foreach (var station in Model.Stations)
+            {
+                <option value="@station.Id">@station.Name</option>
+            }
+        </select>
+    </div>
+    <div class="text-center py-4">
+        <button asp-action="StartStation" asp-controller="StationSmartTicket" formmethod="post" type="submit" class="btn btn-indigo">Biniş İçin Basınız<i class="fa fa-paper-plane-o ml-1"></i></button>
+        <button asp-action="FinishStation" asp-controller="StationSmartTicket" formmethod="post"type="submit" class="btn btn-indigo">İade almak için Basınız<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button formmethod="get" asp-action="UpdateArrear" asp-controller="SmartTicket" type="submit" class="btn btn-indigo">Bakiye Ekle<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button asp-action="Index" asp-controller="Home" type="submit" class="btn btn-indigo">Dön<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+</form>

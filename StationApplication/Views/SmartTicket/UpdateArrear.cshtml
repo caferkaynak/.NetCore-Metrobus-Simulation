@@ -1,0 +1,21 @@
+﻿@model SmartTicket
+@{
+    ViewData["Title"] = "UpdateArrent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="UpdateArrear" asp-controller="SmartTicket">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="SmartTicketTypeId" />
+    <input type="hidden" asp-for="Status" />
+    <input type="hidden" asp-for="UniqueCode" />
+    <div>
+        <input asp-for="Arrears" type="text" class="form-control btn btn-indigo" placeholder="Yükleme Yapılacak Tutarı Giriniz">
+    </div>
+    <div class="text-center py-4">
+        <button type="submit" class="btn btn-indigo">Bakiye Ekle<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button asp-action="Index" asp-controller="StationSmartTicket" type="submit" class="btn btn-indigo">Dön<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+</form>

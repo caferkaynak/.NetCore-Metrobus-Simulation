@@ -1,0 +1,20 @@
+﻿@model UserView
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~//Views/Shared/_Layout.cshtml";
+}
+<div class="card-body">
+    <form class="form-signin" method="post" asp-action="Login" asp-controller="Account">
+        <div class="form-label-group">
+            <input asp-for="UserName" type="text" id="inputText" class="form-control" placeholder="Kullanıcı Adı" required autofocus>
+        </div>
+        <div class="form-label-group">
+            <input asp-for="Password" type="password" id="inputPassword" class="form-control" placeholder="Parola" required>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Yönetici Olarak Giriş Yap</button>
+    </form>
+    <div class="text-center py-4">
+        <a  asp-area="" asp-action="Index" asp-controller="Home"  class="btn btn-indigo">Ana Menüye Dön<i class="fa fa-paper-plane-o ml-1"></i></a>
+    </div>
+</div>

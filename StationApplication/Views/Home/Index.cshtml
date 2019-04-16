@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Grid column -->
+<!-- Form subscription -->
+<form method="get">
+    <div class="text-center py-4">
+        <button type="submit" asp-action="SingInId" asp-controller="SmartTicket" class="btn btn-indigo">Giriş Yap<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button type="submit" asp-action="Index" asp-controller="SmartTicket" class="btn btn-indigo">Smart Kart Üyeliği Alın<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+    <div class="text-center py-4">
+        <button type="submit" asp-area="Administration" asp-action="Login" asp-controller="Account" class="btn btn-indigo">Yönetici Girişi<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+</form>

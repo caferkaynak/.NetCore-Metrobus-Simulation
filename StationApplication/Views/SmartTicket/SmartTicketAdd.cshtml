@@ -1,0 +1,25 @@
+﻿@model ServiceResult
+@{
+    ViewData["Title"] = "SmartTicketAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form>
+    <div class="text-center py-4">
+        <label class="text text-black-50">
+            ID
+            <h2>@Model.Id</h2>
+        </label>
+    </div>
+    <div class="text-center py-4">
+        <label class="text text-black-50">
+            Benzersiz Kodunuz :
+            <h2>@Model.UniqueCode</h2>
+        </label>
+    </div>
+    <div class="text-center py-4">
+        <label class="danger-text">Lütfen Unutmayınız. Bilgileri Giriş Yaparken Kullanacaksınız</label>
+    </div>
+    <div class="text-center py-4">
+        <button asp-action="Index" asp-controller="Home" type="submit" class="btn btn-indigo">Ana Menüye Dön<i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+</form>
